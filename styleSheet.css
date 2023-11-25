@@ -10,14 +10,14 @@ header {
     /* border: 2px solid black; */
     color: darkviolet;
     align-items: center;
-    height: 10vh;
+    height: 12%;
     font-weight: bolder;
-    position:fixed;
-    top:0;
-    
+    position: fixed;
+    top: 0;
+
     background-color: white;
-    width:100%;
-    box-shadow:2px 2px 8px gray;
+    width: 100%;
+    box-shadow: 2px 2px 8px gray;
 }
 
 .logo {
@@ -25,7 +25,7 @@ header {
     display: inline-block;
     font-weight: bolder;
     font-family: monospace;
-    font-size:larger;
+    font-size: larger;
 }
 
 .head-section {
@@ -37,39 +37,64 @@ header {
 .container {
     margin: 2vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top:75px;
+    margin-top: 75px;
 }
 
 pre {
     background-color: #333;
-    color:goldenrod;
+    color: goldenrod;
     height: 50vh;
-    overflow:scroll;
-    border:2px solid black;
+    overflow: scroll;
+    border: 2px solid black;
     border-radius: 8px;
-    margin:20px;
-}
-footer{
- /* background-color: #333; */
- color:black;
- text-align: center;
- font-size: smaller;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-weight: bolder;
+    margin: 20px;
 }
 
-.active-button{
+footer {
+    /* background-color: #333; */
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.active-button {
     background-color: darkviolet;
-    color:white;
-    border-radius:10px;
+    color: white;
+    border-radius: 10px;
     font-size: small;
-    padding:5px;
+    padding: 5px;
     font-family: monospace;
-    letter-spacing:1/2mm;
+    letter-spacing: 1/2mm;
+    margin-left: 15px;
 }
 
-.active-button:hover{
+.active-button:hover {
     background-color: white;
-    color:darkviolet;
+    color: darkviolet;
     box-shadow: 2px 2px 5px darkviolet;
+}
+
+
+@media screen and (max-width:660px) {
+    header {
+        /* border: 2px solid black; */
+        color: white;
+        align-items: center;
+        height: 9%;
+        font-weight: bolder;
+        position: fixed;
+        top: 0;
+        background-color: maroon;
+        width: 100%;
+        box-shadow: 2px 2px 8px grey;
+
+    }
+
+    .head-section {
+        display: none;
+    }
+
+  
 }
